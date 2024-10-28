@@ -16,7 +16,7 @@ CUSTOM_DOMAIN = "ai101.cc"
 
 [env.dev.vars]
 MODE = "debug"
-TARGET_UPSTREAM = "https://registry-1.docker.io"
+TARGET_UPSTREAM = "https://k8s.gcr.io"
 
 [env.production]
 name = "cloudflare-docker-proxy"
@@ -32,7 +32,7 @@ name = "cloudflare-docker-proxy"
 
 [env.production.vars]
 MODE = "production"
-TARGET_UPSTREAM = "https://registry-1.docker.io"
+TARGET_UPSTREAM = "https://k8s.gcr.io"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
