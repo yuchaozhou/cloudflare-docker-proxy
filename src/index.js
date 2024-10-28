@@ -3,7 +3,7 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
 
-const dockerHub = "https://k8s.gcr.io";
+const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
