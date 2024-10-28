@@ -32,7 +32,7 @@ name = "cloudflare-docker-proxy"
 
 [env.production.vars]
 MODE = "production"
-TARGET_UPSTREAM = "https://k8s.gcr.io"
+TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
